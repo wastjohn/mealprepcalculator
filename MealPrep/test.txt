@@ -1,0 +1,13 @@
+Meal Name: Spaghetti and Meatballs
+
+Ingredients:
+- Spaghetti
+- Ground Beef
+- Broccoli
+- Parmesean Cheese
+
+Directions:
+1   Cook Spaghetti
+2   Cook Ground Beef 
+3   Bake Broccoli
+4   Put everything on a plate

@@ -1,0 +1,11 @@
+Meal Name: Chicken and Rice w/ Broccoli
+
+Ingredients:
+- Chicken
+- Rice
+- Broccoli
+
+Directions:
+1   Cook Chicken and Rice
+2   Roast Broccoli
+3   Put everything on a plate
