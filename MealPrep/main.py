@@ -16,17 +16,25 @@ class calendar:
         self.rootwin = tk.Tk()
         self.rootwin.title('One Week Meal Prep Shopping List Calculator')
 
-        # create the different frames of the gui
+        # information frame
         self.infoframe = tk.Frame()
         self.infoframe.pack()
 
+        # week frame
         self.weekframe = tk.Frame()
         self.weekframe.pack(fill=tk.BOTH, expand=True)
 
+        # inventory frame
+        self.inventory = tk.Frame()
+        self.inventory.pack(fill=tk.BOTH, expand=True)
+        self.inventory_list = {}
+
+        # shoppping list frame
         self.sl_frame = tk.Frame()
         self.sl_frame.pack()
         self.sl_list = {}
 
+        # exit frame
         self.exitframe = tk.Frame()
         self.exitframe.pack()
 
@@ -113,6 +121,15 @@ class calendar:
         self.saturday_button.pack(fill=tk.X, pady=10)
         self.saturday_desc = tk.Label(master=self.saturday, text='')
         self.saturday_desc.pack(fill=tk.X)
+
+        # inventory textbox and button
+        self.inventory_label = tk.Label(master=self.inventory, text='Input items already at home')
+        self.inventory_label.pack()
+        self.inventory_text = tk.Text(master=self.inventory, height=5)
+        self.inventory_text.pack()
+        self.inventory_button = tk.Button(master=self.inventory, text='Add to inventory', command=self.get_inventory)
+        self.inventory_button.pack()
+
 
         # exit button
         self.exit_button = tk.Button(master=self.exitframe, text='Exit', command=exit)
@@ -246,8 +263,10 @@ class calendar:
         for i in self.sl_list:
             self.shopping_list.insert(tk.END, i + '\t enough for '  + str(self.sl_list[i]) + ' meal(s)\n')
         
-    
-    # displaying all the ingredients in the shopping list
+    def get_inventory(self):
+        input = self.inventory_text.get('1.0', tk.END)
+        print(input)
+        
     
     
     
