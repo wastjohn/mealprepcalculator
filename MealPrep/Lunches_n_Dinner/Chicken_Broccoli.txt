@@ -1,0 +1,15 @@
+Meal Name: Chicken and Broccoli
+
+Ingredients:
+- Chicken
+- Broccoli
+- Tumeric
+- Cumin
+- Coriander
+- Salt
+- Pepper
+- Olive Oil
+- Sweet Potatoes
+
+Directions:
+1   asdf

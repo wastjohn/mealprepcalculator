@@ -1,0 +1,11 @@
+Meal Name: Pasta and Chicken
+
+Ingredients:
+- Pasta
+- Chicken
+- Allspice
+- Thyme
+- Garlic
+- Olive Oil
+
+Directions:

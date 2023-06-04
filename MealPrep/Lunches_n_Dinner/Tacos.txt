@@ -1,0 +1,12 @@
+Meal Name: Chicken Tacos
+
+Ingredients:
+- Chicken
+- Tortillas
+- Salsa
+- Lettuce
+- Hot Sauce
+- Black Beans
+
+Directions:
+

@@ -1,0 +1,9 @@
+Meal Name: Chicken Stir Fry
+
+Ingredients:
+- Chicken
+- Peppers
+- Onions
+- Broccoli
+
+Directions:

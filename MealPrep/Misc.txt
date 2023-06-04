@@ -1,0 +1,18 @@
+Meal Name: Fruits and Veggies
+
+Ingredients:
+- Carrots
+- Grapes
+- Oranges
+- Apples
+- Cucumbers
+- Celery
+- Bananas
+- Onions
+- Peppers
+- Lemons
+- Potatoes
+- Sweet Potatoes
+
+Directions:
+

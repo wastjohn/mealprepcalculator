@@ -259,13 +259,23 @@ class calendar:
         return ingred
     
     def get_shopping_list(self):
+        # clear the shopping list text box
         self.shopping_list.delete('1.0', 'end')
+
+        # add everything from the text files into the shopping list text box
         for i in self.sl_list:
-            self.shopping_list.insert(tk.END, i + '\t enough for '  + str(self.sl_list[i]) + ' meal(s)\n')
+            if i in self.inventory_list:
+                self.sl_list[i] -= self.inventory_list[i]
+            if self.sl_list[i] != 0:
+                self.shopping_list.insert(tk.END, i + '\t enough for '  + str(self.sl_list[i]) + ' meal(s)\n')
         
     def get_inventory(self):
         input = self.inventory_text.get('1.0', tk.END)
-        print(input)
+        input_list = input.split('\n')
+        for i in input_list:
+            if i != '':
+                self.inventory_list[i] = 1
+        print(self.inventory_list)
         
     
     
